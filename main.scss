@@ -1,7 +1,53 @@
+.outerContainer{
+  background-image: url(images/chat-background.jpg);
+  object-fit: contain;
+  height: 50rem;
+  width: 100%;
+}
 .welcomeScreen {
   height: 30rem;
   width:40rem;
   background: aqua;
   margin: 0 auto;
+  padding-top: 10rem;
   text-align: center;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.chatroomContainer {
+  height: 20rem;
+  width: 40rem;
+  background: grey;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.chats {
+    width: 80%;
+    height: 80%;
+    background: white;
+    display: inline-block;
+}
+.users {
+    width: 8rem;
+    float: right;
+    background: green;
+    height: 16rem;
+}
+.users p {
+  text-align: center;
+  width: 99%;
+  border:1px solid blue;
+  margin: 0;
+}
+.chatroomContainer input {
+    width: 26rem;
+    height: 3rem;
+    font-size: 2rem;
+}
+.chatroomContainer button {
+  width: 5rem;
+}
+.hidden {
+  display: none;
 }
